@@ -7,7 +7,7 @@ letter_body = "Words words words words words words words words words words words
                 "words words words words words."
 entire_letter = recipient_address + letter_body
 
-path_string = "/home/tatsuya/Documents/CL_template/my_letter.tex"
+path_string = "" # change this line to the file path for my_letter.tex
 path = pathlib.Path(path_string)
 path.unlink(missing_ok=True) # this deletes my_letter.tex if it exists
 
