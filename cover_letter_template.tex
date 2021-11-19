@@ -1,0 +1,29 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+
+\usepackage{changepage} % use for adjusting margin width
+\usepackage{fontspec}
+\setmainfont{Calibri}
+
+\usepackage{nopageno}
+
+\usepackage{lipsum}% just to generate filler text
+
+
+\begin{document}
+
+
+\begin{adjustwidth}{-0.5in}{-0.5in}
+\begin{center}
+Header Line 1\linebreak
+Header Line 2\linebreak
+Header Line 3\linebreak
+\end{center}
+\end{adjustwidth}
+
+\noindent % use for block formatting
+\input{my_letter.tex}
+%\lipsum[1-4] % generate filler text
+
+
+\end{document}
